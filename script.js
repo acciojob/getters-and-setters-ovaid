@@ -1,6 +1,6 @@
 //complete this code
 class Person {
-	  constructor(name, age) {
+   constructor(name, age) {
     this._name = name;
     this._age = age;
 }
@@ -10,6 +10,7 @@ class Person {
 	set age(age) {
        this._age = age;
   }
+}
 
 
 class Student extends Person {
